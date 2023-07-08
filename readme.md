@@ -47,5 +47,25 @@ Task 3: Display appropriate error messages for incomplete or invalid surveys
 Task 4: Validate input to ensure it meets the required criteria (e.g., numeric input for rating questions)
 Task 5: Improve the user experience by providing clear instructions and prompts
 
+R8-
+
+Installation:
+Download the application package from https://github.com/Popeydanielmate/python_survey_app.git
+Extract the contents of the downloaded package to a desired directory.
+
+System Requirements:
+Operating System: Windows, macOS, or Linux
+Python version 3.9.6
+
+Usuage:
+Open a terminal/command prompt.
+Navigate to the directory where the application files are located.
+Run the application using the following command:
+python survery_app.py
+
+--help or -h: Displays the help documentation and available command line arguments.
+
+
+
 
 
