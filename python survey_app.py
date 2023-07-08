@@ -19,7 +19,7 @@ class Customer:
         # Generates $20 voucher for the customer
         pass  
     
-# Define the Restaurant class to handle survey-related operations
+# Define Restaurant class to handle survey-related operations
 class Restaurant:
     def display_survey_questions(self):
         # Displays survey questions to the customer
