@@ -42,3 +42,10 @@ restaurant = Restaurant()
 customer = Customer("John Doe")
 
 restaurant.collect_survey_responses(customer)
+
+# Validates the customer's responses and provide the voucher if valid
+if customer.validate_responses():
+    customer.generate_voucher()
+    print("Thank you for completing the survey! Here's your $20 voucher.")
+else:
+    print("Please complete the survey to receive the voucher.")
