@@ -40,3 +40,5 @@ class Restaurant:
 # Creates instances of Restaurant and Customer classes
 restaurant = Restaurant()
 customer = Customer("John Doe")
+
+restaurant.collect_survey_responses(customer)
