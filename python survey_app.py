@@ -28,4 +28,6 @@ class Restaurant:
         print("1. How satisfied were you with your meal?")
         print("2. How likely are you to recommend our restaurant to a friend?")    
     
-        
+    def collect_survey_responses(self, customer):
+        # Collects survey responses from the customer
+        self.display_survey_questions()
