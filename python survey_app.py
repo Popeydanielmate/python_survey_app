@@ -36,3 +36,7 @@ class Restaurant:
         for question in range(1, 3):  
             answer = input(f"Answer for question {question}: ")
             customer.collect_survey_response(question, answer)
+            
+# Creates instances of Restaurant and Customer classes
+restaurant = Restaurant()
+customer = Customer("John Doe")
