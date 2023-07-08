@@ -31,3 +31,8 @@ class Restaurant:
     def collect_survey_responses(self, customer):
         # Collects survey responses from the customer
         self.display_survey_questions()
+        
+        # Collect responses for each question
+        for question in range(1, 3):  
+            answer = input(f"Answer for question {question}: ")
+            customer.collect_survey_response(question, answer)
