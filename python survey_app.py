@@ -13,4 +13,10 @@ class Customer:
         if len(self.responses) == 2:  
             return True
         else:
-            return False    
+            return False
+        
+    def generate_voucher(self):
+        # Generates $20 voucher for the customer
+        pass  
+    
+        
