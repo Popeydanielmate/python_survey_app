@@ -19,4 +19,13 @@ class Customer:
         # Generates $20 voucher for the customer
         pass  
     
+# Define the Restaurant class to handle survey-related operations
+class Restaurant:
+    def display_survey_questions(self):
+        # Displays survey questions to the customer
+        print("Welcome to our restaurant survey!")
+        print("Please answer the following questions:")
+        print("1. How satisfied were you with your meal?")
+        print("2. How likely are you to recommend our restaurant to a friend?")    
+    
         
